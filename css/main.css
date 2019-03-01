@@ -108,6 +108,16 @@ img{
     margin-bottom: 12px;
 }
 
+.gallery-item:hover .product-name,
+.gallery-item:focus .product-name{
+    background-color: #1abc9c;
+}
+
+.gallery-item:hover .product-price,
+.gallery-item:focus .product-price{
+    background-color: #7fd9c7;
+}
+
 .gallery-item:not(:nth-child(4n+0)){
     margin-right: 30px;
 }
